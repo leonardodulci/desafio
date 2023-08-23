@@ -1,0 +1,407 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f2f2f2;
+    height: 1213px;
+    font-family: 'Ubuntu';
+}
+
+nav{
+
+    height: 670px;
+    width: 50px;
+    background-color:rgb(79, 161, 193) ;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+
+nav > ul > li > a > div{
+    position: relative;
+    top: 190px;
+
+    margin-left: 9px;
+    margin-bottom: 15px;
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+nav > ul > li > a > div > span{
+    margin-left: 4px;
+    margin-top: 4px;
+    color:rgb(79, 161, 193) ;
+}
+
+section{
+    width: 1242px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    
+}
+
+
+
+
+section > a > div{
+    margin-top: 33px;
+    margin-left:61px ;
+    float: left;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(79, 161, 193) ;
+    border-radius: 20px;
+}
+section > a > div > .d2{
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: auto;
+    display: block;
+    margin-top: 19px;
+    border-radius: 10px;
+}
+              
+section > a > div > .d2 > span{
+    margin-top: 1px;
+    margin-left: 1px;
+}
+main > .text {
+    position: absolute;
+    top: 188px;
+    left: 76px;
+    width: 447px;
+    height: 439px;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+}
+.text > p {
+    padding: 15px ;
+    text-align: justify;
+    line-height: 20px;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+}
+.text > img{
+    position: absolute;
+    top: 339px;
+    left:25px;
+}
+.form{
+    position: absolute;
+    top: 200px;
+    left: 569px;
+    background-color: #ffffff;
+    height: 870px;
+    width: 741px;
+    border-radius: 20px;
+}
+form > h1{
+    color: white;
+    font-size: 28px;
+    font-family: 'Ubuntu';
+    font-weight: lighter;
+    padding: 5px;
+    background-color: rgb(79, 161, 193);
+    border-radius: 20px 20px  0px 0px;
+    margin-bottom: 10px;
+}
+form > span > .material-symbols-outlined{
+    margin-top: 5px;
+    color: white;
+    
+}
+
+form  > #primeiro{
+    width: 52vw;
+    display: block;
+    margin: auto;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+}
+
+form > #segundo{
+    position: absolute;
+    top: 60px;
+    left: 655px;
+
+    width: 50px;
+   
+}
+
+.segquadro {
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 52vw;
+    height: 235px;
+    margin-top: 5px;   
+}
+
+.segquadro > .l1 {
+    position: absolute;
+    top: 103px;
+    margin-left: 15px;
+    
+     
+} 
+
+.segquadro > .l2 {
+    position: absolute;
+    top: 170px;
+    margin-left: 15px;
+}
+
+.segquadro > .l3 {
+    position: absolute;
+    top: 243px;
+    margin-left: 15px;
+}
+
+.segquadro > .l4 {
+    position: absolute;
+    top: 103px;
+    left: 380px;
+    
+}
+
+.segquadro > .l5 {
+    position: absolute;
+    top: 170px;
+    left: 380px;
+    
+}
+
+.segquadro > .l6 {
+    position: absolute;
+    top: 243px;
+    left: 380px;
+    
+}
+
+.terceiroquadro {
+    position: absolute;
+    top: 345px;
+    left: 15px;
+
+    display: block;
+    margin: auto;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 711px;
+    height: 270px;
+    margin-top: 5px;
+}
+
+.terceiroquadro > p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.terceiroquadro > .l1{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.terceiroquadro > fieldset{
+    width: 49vw;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+     margin-bottom: 5px;
+}
+
+.terceiroquadro > fieldset > #ativ{
+   
+    width: 665px;
+    height: 36px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+}
+
+.terceiroquadro > fieldset > .l3{
+    position: absolute;
+    top: 135px;
+    left: 22px;
+}
+
+.terceiroquadro > fieldset > #epi{
+    margin-top: 15px;
+    width: 19vw;
+    padding: 10px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+}
+ 
+.terceiroquadro > fieldset > .l4{
+    position: absolute;
+    top: 136px;
+    left: 295px;
+}
+
+.terceiroquadro > fieldset > #ca{
+    margin-left: 10px;
+    width: 20vw;
+    padding: 11px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+
+}
+
+.terceiroquadro > fieldset > a > .b1{
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    padding: 11px;
+
+}
+
+.terceiroquadro > a{
+      text-decoration: none;
+}
+
+.terceiroquadro > a > .b2{
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    padding: 11px;
+    margin: auto;
+    display: block;
+    width: 688px;
+  
+}
+
+.quartoquadro{
+    position: absolute;
+    top: 635px;
+
+    width: 710px;
+    height: 164px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+}
+.quartoquadro > p{
+    padding: 10px;
+}
+
+.quartoquadro > #instru{
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 667px;
+    padding: 11px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.quartoquadro > #doc{
+    padding: 10px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    width: 667px;
+    text-align: center;
+}
+
+.botao{
+    position: absolute;
+    top: 812px;
+    padding: 10px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 710px;
+
+}
+
+
+
+
+
+#nome{
+    position: absolute;
+    top: 120px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px solid rgb(79, 161, 193);
+    width: 25vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#cpf{
+    position: absolute;
+    top: 190px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px solid rgb(79, 161, 193);
+    width: 25vw;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#rg{
+    position: absolute;
+    top: 260px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 25vw;
+    padding: 10px;
+}
+
+.sex1{
+    position: absolute;
+    top: 137px;
+    left: 420px;
+}
+
+.sex2{
+    position: absolute;
+    top: 137px;
+    left: 550px;
+}
+
+#nasc{
+    position: absolute;
+    top: 195px;
+    left: 385px;
+    padding: 8px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 20vw;
+    text-align: center;
+}
+
+#cargo{
+    position: absolute;
+    top: 266px;
+    left: 385px;
+    padding: 8px;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 20vw;
+}
