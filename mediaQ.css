@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media  screen and (min-width: 500px) and(max-width: 1000px) {
+@media  screen and (min-width: 500px) and (max-width: 1000px) {
     
 
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
@@ -83,6 +83,8 @@ section > a > div > .d2 > span{
     margin-top: 1px;
     margin-left: 1px;
 }
+
+
 main > .text {
     position: absolute;
     top: 188px;
@@ -296,11 +298,11 @@ form > #segundo{
 .quartoquadro{
     position: absolute;
     top: 635px;
-    
+    left: 150px;
 
     width: 710px;
     height: 164px;
-    border: 2px solid rgb(79, 161, 193);
+    border: 2px solid rgb(75, 161, 193);
     border-radius: 10px;
 }
 .quartoquadro > p{

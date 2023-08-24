@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
 
 
 *{
@@ -58,7 +58,7 @@ section{
 
 
 section > a > div{
-    margin-top: 33px;
+    margin-top: 12px;
     margin-left:61px ;
     float: left;
     width: 70px;
@@ -79,6 +79,52 @@ section > a > div > .d2{
 section > a > div > .d2 > span{
     margin-top: 1px;
     margin-left: 1px;
+}
+
+section > aside > div{
+    display: inline-block;
+    position: relative;
+    top: 120px;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(79, 161, 193);
+}
+section > aside > .d1{
+    margin-left: 78px;
+    margin-right: 77px;
+}
+section > aside > .d2{
+    margin-left: 7px;
+    margin-right: 78px;
+}
+section > aside > .d3{
+    margin-left: 8px;
+    margin-right: 75px;
+}
+section > aside > .d4{
+    margin-left: 12px;
+    
+}
+section > aside > .d5{
+    margin-left: 89px;
+    margin-right: 78px;
+}
+
+section > aside > .d6{
+    margin-left: 9px;
+    margin-right: 2px;
+}
+section > aside > .d7{
+    margin-left: 83px;
+    margin-right: 77px;
+}
+section > aside > .d8{
+    margin-left: 6px;
+   
+}
+section > aside > .d9{
+    margin-left: 85px;
+    margin-right: 77px;
 }
 main > .text {
     position: absolute;
