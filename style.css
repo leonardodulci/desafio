@@ -154,7 +154,7 @@ main > .text {
     left: 569px;
     background-color: #ffffff;
     height: 870px;
-    width: 741px;
+    width: 820px;
     border-radius: 20px;
 }
 form > h1{
@@ -232,14 +232,14 @@ form > #segundo{
 .segquadro > .l5 {
     position: absolute;
     top: 170px;
-    left: 380px;
+    left: 420px;
     
 }
 
 .segquadro > .l6 {
     position: absolute;
     top: 243px;
-    left: 380px;
+    left: 420px;
     
 }
 
@@ -252,7 +252,7 @@ form > #segundo{
     margin: auto;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 711px;
+    width: 791px;
     height: 270px;
     margin-top: 5px;
 }
@@ -289,7 +289,7 @@ form > #segundo{
 .terceiroquadro > fieldset > .l3{
     position: absolute;
     top: 135px;
-    left: 22px;
+    left: 25px;
 }
 
 .terceiroquadro > fieldset > #epi{
@@ -340,7 +340,7 @@ form > #segundo{
     position: absolute;
     top: 635px;
 
-    width: 710px;
+    width: 790px;
     height: 164px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
@@ -375,7 +375,7 @@ form > #segundo{
     padding: 10px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 710px;
+    width: 791px;
 
 }
 
@@ -434,7 +434,7 @@ form > #segundo{
 #nasc{
     position: absolute;
     top: 195px;
-    left: 385px;
+    left: 420px;
     padding: 8px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
@@ -445,7 +445,7 @@ form > #segundo{
 #cargo{
     position: absolute;
     top: 266px;
-    left: 385px;
+    left: 420px;
     padding: 8px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
