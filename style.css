@@ -154,7 +154,7 @@ main > .text {
     left: 569px;
     background-color: #ffffff;
     height: 870px;
-    width: 810px;
+    width: 741px;
     border-radius: 20px;
 }
 form > h1{
@@ -269,7 +269,7 @@ form > #segundo{
 }
 
 .terceiroquadro > fieldset{
-    width: 46vw;
+    width: 49vw;
     display: block;
     margin: auto;
     padding: 10px;
