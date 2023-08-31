@@ -1,0 +1,47 @@
+{
+    "users": [
+        {
+            "nome": "",
+            "cpf": "",
+            "rg": "",
+            "sexo": "",
+            "dataNasc": "",
+            "cargo": [
+                {
+                    "cargo1": "estágio",
+                    "cargo2": "junior",
+                    "cargo3": "Pleno",
+                    "cargo4": "senior"
+                }
+            ],
+            
+    "epi": [
+        {
+            "usaEPI": false,
+            "atividade": [
+                {
+                    "at1": "atividade 1",
+                    "at2": "atividade 2",
+                    "at3": "atividade 3",
+                    "at4": "atividade 4"
+                }
+            ],
+            
+            "selectEpi": [
+                {
+                    "epi1": "Calçado de segurança",
+                    "epi2": "Oculos de proteção",
+                    "epi3": "Capacete",
+                    "epi4": "Colete"
+                }
+            ],
+            
+            "numeroCA": ""
+        }
+    ]
+        }
+    ]
+
+}
+
+

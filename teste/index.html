@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" id="form">
+            <input type="text" name="nome" id="nome">
+            <input type="text" name="cpf" id="cpf">
+            <input type="text" name="rg" id="rg">
+            <input type="date" name="nasc" id="nasc">
+
+        <input type="button" value="Salvar" id="submit">
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById("form");
+            const submitButton = document.getElementById("submit");
+
+            submitButton.addEventListener("click", function(event) {
+                event.preventDefault();
+
+                const formData = {
+                   // primeiro: form.primeiro.value,
+                    //segundo: form.segundo.value,
+                    nome: form.nome.value,
+                    cpf: form.cpf.value,
+                    rg: form.rg.value,
+                   // sexo: form.sexo.value,
+                    nasc: form.nasc.value,
+                   // cargo: form.cargo.value,
+                    // Adicione outras propriedades do formulário aqui
+                };
+
+                // Estrutura JSON com os dados do formulário
+                const jsonData = {
+                    users: [
+                        formData
+                    ]
+                };
+
+                console.log(jsonData); // Exibe o objeto JSON no console (para fins de verificação)
+
+                // Aqui você pode enviar o objeto JSON para onde precisar (por exemplo, para um servidor)
+            });
+        });
+    </script>
+</body>
+</html>

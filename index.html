@@ -189,7 +189,7 @@
             </span>
 
             <span class="form">
-                <form action="#">
+                <form action="#" id="form">
 
                     <h1><span class="material-symbols-outlined">
                         arrow_left_alt
@@ -212,12 +212,12 @@
                         <label for="sexom" class="l4">Sexo</label>
 
                     <span class="sex1">
-                                <input type="radio" name="sexo" id="sexom" checked>
+                                <input type="radio" name="sexo" id="sexom" class="sex" checked>
                                 <label for="sexom">Masculino</label>
                             </span>
 
                     <span class="sex2">
-                                <input type="radio" name="sexo" id="sexof">
+                                <input type="radio" name="sexo" id="sexof" class="sex">
                                 <label for="sexof">Feminino</label>
                             </span>
 
@@ -271,7 +271,7 @@
                         <input type="file" name="doc" id="doc">
                     </fieldset>
 
-                    <a href="#"><input type="button" value="Salvar" class="botao"></a>
+                    <a href="#"><input type="submit" value="Salvar" id="submit"></a>
                 
                 </form>
                 
@@ -280,5 +280,6 @@
             
         </section>
     </main>
+    <script type="module" src="script.js"></script>
 </body>
 </html>

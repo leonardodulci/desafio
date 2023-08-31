@@ -1,0 +1,23 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "dev:jason": "json-server db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "axios": "^1.5.0",
+    "http-server": "^14.1.1",
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.9.3"
+  }
+}

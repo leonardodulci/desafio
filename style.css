@@ -369,7 +369,7 @@ form > #segundo{
     text-align: center;
 }
 
-.botao{
+#submit{
     position: absolute;
     top: 812px;
     padding: 10px;
