@@ -34,5 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(jsonData); // Exibe o objeto JSON no console (para fins de verificação)
 
         // Aqui você pode enviar o objeto JSON para onde precisar (por exemplo, para um servidor)
+    
     });
+    
 });
