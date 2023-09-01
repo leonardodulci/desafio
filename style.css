@@ -246,13 +246,13 @@ form > #segundo{
 .terceiroquadro {
     position: absolute;
     top: 345px;
-    left: 15px;
+    left: 10px;
 
     display: block;
     margin: auto;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 754px;
+    width: 759px;
     height: 270px;
     margin-top: 5px;
 }
