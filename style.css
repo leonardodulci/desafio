@@ -150,11 +150,11 @@ main > .text {
 }
 .form{
     position: absolute;
-    top: 200px;
-    left: 569px;
+    top: 180px;
+    left: 540px;
     background-color: #ffffff;
     height: 870px;
-    width: 820px;
+    width: 777px;
     border-radius: 20px;
 }
 form > h1{
@@ -174,7 +174,7 @@ form > span > .material-symbols-outlined{
 }
 
 form  > #primeiro{
-    width: 52vw;
+    width: 50vw;
     display: block;
     margin: auto;
     padding: 7px;
@@ -197,7 +197,7 @@ form > #segundo{
     margin: auto;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 52vw;
+    width: 50vw;
     height: 235px;
     margin-top: 5px;   
 }
@@ -252,7 +252,7 @@ form > #segundo{
     margin: auto;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 791px;
+    width: 754px;
     height: 270px;
     margin-top: 5px;
 }
@@ -340,7 +340,7 @@ form > #segundo{
     position: absolute;
     top: 635px;
 
-    width: 790px;
+    width: 760px;
     height: 164px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
@@ -375,7 +375,7 @@ form > #segundo{
     padding: 10px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 791px;
+    width: 760px;
 
 }
 
