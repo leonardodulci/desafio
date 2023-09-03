@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             c1: form.c1.value,
             ativ: form.ativ.value,
             // Adiciona o campo "epi" com base no estado do checkbox
-            epi: document.querySelector(".usaEPI").checked ? "Usa EPI" : "Não usa EPI",
+            epi: document.querySelector(".usaEPI").checked ? "Não usa EPI" : "Usa EPI",
             ca: form.ca.value,
             doc: form.doc.value
         };
