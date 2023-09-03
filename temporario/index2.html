@@ -191,40 +191,48 @@
 
             <span class="form">
                 <form action="#" id="form">
+
                     <h1><span class="material-symbols-outlined">
-                        arrow_left_alt</span>Adicionar Funcionário
+                        arrow_left_alt
+                        </span>Adicionar Funcionário
                     </h1>
         
                         <label for="primeiro"></label><input type="text" name="primeiro" id="primeiro" value="O trabalhador está ativo ou inativo?" >
-            
+                    
                         <input type="range" name="segundo" id="segundo" min="0" max="1" value="ativo">
-        <fieldset class="segquadro1">
-                <label for="nome" class="l1">Nome<br></label>
-                    <input type="text" name="nome" id="nome"><br>
+                    <span class="segquadro">
+                        <label for="nome" class="l1">Nome<br></label>
+                            <input type="text" name="nome" id="nome"><br>
+
                         <label for="cpf" class="l2">CPF<br></label>
-                            <input type="number" name="cpf" id="cpf"><br>    
+                            <input type="number" name="cpf" id="cpf"><br>
+                        
                         <label for="rg" class="l3">RG<br></label>
-                     <input type="number" name="rg" id="rg"><br>
-                <label for="sexom" class="l4">Sexo</label>
-            <span class="sex1">
-                <input type="radio" name="sexo" id="sexom" class="sex" value="masculino" checked>
-                    <label for="sexom">Masculino</label>
-            </span>
-                <span class="sex2">
-                    <input type="radio" name="sexo" id="sexof" class="sex" value="feminino">
-                        <label for="sexof">Feminino</label>
-                </span>
-                    <label for="nasc" class="l5">Data de nascimento</label><br>
+                            <input type="number" name="rg" id="rg"><br>
+                        
+                        <label for="sexom" class="l4">Sexo</label>
+
+                    <span class="sex1">
+                                <input type="radio" name="sexo" id="sexom" class="sex" value="masculino" checked>
+                                <label for="sexom">Masculino</label>
+                            </span>
+
+                    <span class="sex2">
+                                <input type="radio" name="sexo" id="sexof" class="sex" value="feminino">
+                                <label for="sexof">Feminino</label>
+                            </span>
+
+                        <label for="nasc" class="l5">Data de nascimento</label><br>
                         <input type="date" name="nasc" id="nasc">
-                            <label for="cargo" class="l6">Cargo</label><br>
-                                <select name="cargo" id="cargo">
-                                    <option value="--Escolha--">--Escolha--</option>
-                                <option value="Estágio">Estágio</option>
+                        
+                        <label for="cargo" class="l6">Cargo</label><br>
+                        <select name="cargo" id="cargo">
+                            <option value="--Escolha--">--Escolha--</option>
+                            <option value="Estágio">Estágio</option>
                             <option value="Junior">Junior</option>
-                        <option value="Pleno">Pleno</option>
-                    <option value="Sênior">Sênior</option>
-                         </select>
-        </fieldset>
+                            <option value="Pleno">Pleno</option>
+                            <option value="Sênior">Sênior</option>
+                        </select>   
                     <span class="terceiroquadro">
                         <p>Quais EPIs o trabalhador usa na atividade?</p>
                         <input type="checkbox" name="c1" id="c1" class="usaEPI">

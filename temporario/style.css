@@ -174,7 +174,7 @@ form > span > .material-symbols-outlined{
 }
 
 form  > #primeiro{
-    width: 47rem;
+    width: 50vw;
     display: block;
     margin: auto;
     padding: 7px;
@@ -186,25 +186,23 @@ form  > #primeiro{
 form > #segundo{
     position: absolute;
     top: 60px;
-    left: 690px;
+    left: 655px;
 
     width: 50px;
    
 }
-.segquadro1{
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    margin: 11px;
 
+.segquadro {
     display: block;
     margin: auto;
-
-    width: 55vw;
+    border: 2px solid rgb(79, 161, 193);
+    border-radius: 10px;
+    width: 50vw;
     height: 235px;
     margin-top: 5px;   
 }
 
-.segquadro1 >  .l1 {
+.segquadro > .l1 {
     position: absolute;
     top: 103px;
     margin-left: 15px;
@@ -212,32 +210,33 @@ form > #segundo{
      
 } 
 
-.segquadro1  > .l2 {
+.segquadro > .l2 {
     position: absolute;
     top: 170px;
     margin-left: 15px;
 }
 
- .segquadro1 > .l3 {
+.segquadro > .l3 {
     position: absolute;
     top: 243px;
     margin-left: 15px;
 }
 
- .segquadro1 > .l4 {
+.segquadro > .l4 {
     position: absolute;
     top: 103px;
-    left: 417px;
+    left: 380px;
     
 }
-.segquadro1 > .l5 {
+
+.segquadro > .l5 {
     position: absolute;
     top: 170px;
     left: 420px;
     
 }
 
-.segquadro1 > .l6 {
+.segquadro > .l6 {
     position: absolute;
     top: 243px;
     left: 420px;
@@ -340,8 +339,8 @@ form > #segundo{
 .quartoquadro{
     position: absolute;
     top: 635px;
-    left: 10px;
-    width: 759px;
+
+    width: 760px;
     height: 164px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
@@ -373,11 +372,10 @@ form > #segundo{
 #submit{
     position: absolute;
     top: 812px;
-    left: 10px;
     padding: 10px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 759px;
+    width: 760px;
 
 }
 
