@@ -55,8 +55,6 @@ section{
 }
 
 
-
-
 section > a > div{
     margin-top: 12px;
     margin-left:61px ;
@@ -126,6 +124,8 @@ section > aside > .d9{
     margin-left: 85px;
     margin-right: 77px;
 }
+
+
 main > .text {
     position: absolute;
     top: 188px;
@@ -179,8 +179,10 @@ main > .text {
     border: 1px solid rgb(79, 161, 193);
     border-radius: 10px;
     font-family: 'ubuntu';
+    cursor: pointer;
     color: rgb(79, 161, 193);
 }
+
 
 .form > .b2{
     font-family: 'ubuntu';
@@ -201,3 +203,100 @@ main > .text {
     border-radius: 10px;
     margin-left: 22px;
 }
+
+.form > .d1{
+    height: 84px;
+    width: 729px;
+    background-color: #EDF1F5;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form > .d2{
+    height: 84px;
+    width: 729px;
+    background-color: #EDF1F5;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+
+.form > .d1 > h1{
+    font-weight: 400;
+    font-family: 'ubuntu';
+    font-size: 24px;
+    color: #707070;
+    margin-bottom: 10px;
+    
+}
+
+.form > .d1 > span{
+    width: 82px;
+    height: 24px;
+    margin-left: 10px;
+    
+    border-radius: 36px;
+    background-color: #4FA1C1;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+.form > .d2 > h1{
+    font-weight: 400;
+    font-family: 'ubuntu';
+    font-size: 24px;
+    color: #707070;
+    margin-bottom: 10px;
+    
+}
+
+.form > .d2 > span{
+    width: 82px;
+    height: 24px;
+    margin-left: 10px;
+    
+    border-radius: 36px;
+    background-color: #4FA1C1;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+.form > .d3{
+    background-color:#4FA1C1 ;
+    width: 49px;
+    height: 84px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    top: -188px;
+    left: 705px;
+}
+.form > .d4{
+    background-color:#4FA1C1 ;
+    width: 49px;
+    height: 84px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    top: -168px;
+    left: 705px;
+}
+
+.form > .d3 > .material-symbols-outlined{
+   position: relative;
+   top: 31px;
+   left: 13px;
+
+   font-weight: bolder;
+}
+.form > .d4 > .material-symbols-outlined{
+    position: relative;
+    top: 31px;
+    left: 13px;
+
+    font-weight: bolder;
+ }

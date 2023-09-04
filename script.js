@@ -1,5 +1,5 @@
         const formData = {
-            segundo: form.segundo.value,
+            segundo: document.querySelector("#segundo").checked ? "Ativo" : "Inativo",
             nome: form.nome.value,
             cpf: form.cpf.value,
             rg: form.rg.value,
@@ -52,6 +52,8 @@ document.addEventListener("DOMContentLoaded", function() {
      
     });
 });
+
+/*
 // Adicione um evento de envio ao formulário
 document.querySelector("#form").addEventListener("submit", function (event) {
     // Impedir o comportamento padrão de envio, que recarregaria a página
@@ -78,4 +80,4 @@ document.querySelector("#form").addEventListener("submit", function (event) {
     formVisivel.style.display = "block";
     formOculto.style.display = "none";
   });
-  
+  */
