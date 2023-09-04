@@ -1,154 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: #f2f2f2;
-    height: 1213px;
-    font-family: 'Ubuntu';
-}
-
-nav{
-
-    height: 670px;
-    width: 50px;
-    background-color:rgb(79, 161, 193) ;
-    border-radius: 0px 10px 10px 0px;
-    
-}
-
-nav > ul > li > a > div{
-    position: relative;
-    top: 190px;
-
-    margin-left: 9px;
-    margin-bottom: 15px;
-    width: 32px;
-    height: 32px;
-    background-color: #ffffff;
-    border-radius: 10px;
-
-}
-nav > ul > li > a > div > span{
-    margin-left: 4px;
-    margin-top: 4px;
-    color:rgb(79, 161, 193) ;
-}
-
-section{
-    width: 1242px;
-    height: 150px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-
-    position: absolute;
-    top: 15px;
-    left: 75px;
-    
-}
-
-
-
-
-section > a > div{
-    margin-top: 12px;
-    margin-left:61px ;
-    float: left;
-    width: 70px;
-    height: 70px;
-    background-color: rgb(79, 161, 193) ;
-    border-radius: 20px;
-}
-section > a > div > .d2{
-    width: 30px;
-    height: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    margin: auto;
-    display: block;
-    margin-top: 19px;
-    border-radius: 10px;
-}
-              
-section > a > div > .d2 > span{
-    margin-top: 1px;
-    margin-left: 1px;
-}
-
-section > aside > div{
-    display: inline-block;
-    position: relative;
-    top: 120px;
-    font-weight: 500;
-    font-size: 14px;
-    color: rgb(79, 161, 193);
-}
-section > aside > .d1{
-    margin-left: 78px;
-    margin-right: 77px;
-}
-section > aside > .d2{
-    margin-left: 7px;
-    margin-right: 78px;
-}
-section > aside > .d3{
-    margin-left: 8px;
-    margin-right: 75px;
-}
-section > aside > .d4{
-    margin-left: 12px;
-    
-}
-section > aside > .d5{
-    margin-left: 89px;
-    margin-right: 78px;
-}
-
-section > aside > .d6{
-    margin-left: 9px;
-    margin-right: 2px;
-}
-section > aside > .d7{
-    margin-left: 83px;
-    margin-right: 77px;
-}
-section > aside > .d8{
-    margin-left: 6px;
-   
-}
-section > aside > .d9{
-    margin-left: 85px;
-    margin-right: 77px;
-}
-main > .text {
-    position: absolute;
-    top: 188px;
-    left: 76px;
-    width: 447px;
-    height: 439px;
-    border-radius: 20px;
-    background-color: #ffffff;
-
-}
-.text > p {
-    padding: 15px ;
-    text-align: justify;
-    line-height: 20px;
-    font-family: 'Ubuntu';
-    font-size: 16px;
-}
-.text > img{
-    position: absolute;
-    top: 339px;
-    left:25px;
-}
-.form{
+#form{
     position: absolute;
     top: 180px;
     left: 540px;
@@ -167,14 +19,18 @@ form > h1{
     border-radius: 20px 20px  0px 0px;
     margin-bottom: 10px;
 }
+form > h1 > a{
+        text-decoration: none;
+        color: white;
+    
+}
 form > span > .material-symbols-outlined{
     margin-top: 5px;
     color: white;
     
 }
-
 form  > #primeiro{
-    width: 50vw;
+    width: 47rem;
     display: block;
     margin: auto;
     padding: 7px;
@@ -186,23 +42,25 @@ form  > #primeiro{
 form > #segundo{
     position: absolute;
     top: 60px;
-    left: 655px;
+    left: 690px;
 
     width: 50px;
    
 }
-
-.segquadro {
-    display: block;
-    margin: auto;
+.segquadro1{
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 50vw;
+    margin: 11px;
+
+    display: block;
+    margin: auto;
+
+    width: 760px;
     height: 235px;
     margin-top: 5px;   
 }
 
-.segquadro > .l1 {
+.segquadro1 >  .l1 {
     position: absolute;
     top: 103px;
     margin-left: 15px;
@@ -210,33 +68,32 @@ form > #segundo{
      
 } 
 
-.segquadro > .l2 {
+.segquadro1  > .l2 {
     position: absolute;
     top: 170px;
     margin-left: 15px;
 }
 
-.segquadro > .l3 {
+ .segquadro1 > .l3 {
     position: absolute;
     top: 243px;
     margin-left: 15px;
 }
 
-.segquadro > .l4 {
+ .segquadro1 > .l4 {
     position: absolute;
     top: 103px;
-    left: 380px;
+    left: 417px;
     
 }
-
-.segquadro > .l5 {
+.segquadro1 > .l5 {
     position: absolute;
     top: 170px;
     left: 420px;
     
 }
 
-.segquadro > .l6 {
+.segquadro1 > .l6 {
     position: absolute;
     top: 243px;
     left: 420px;
@@ -289,7 +146,7 @@ form > #segundo{
 .terceiroquadro > fieldset > .l3{
     position: absolute;
     top: 135px;
-    left: 25px;
+    left: 45px;
 }
 
 .terceiroquadro > fieldset > #epi{
@@ -339,8 +196,8 @@ form > #segundo{
 .quartoquadro{
     position: absolute;
     top: 635px;
-
-    width: 760px;
+    left: 10px;
+    width: 759px;
     height: 164px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
@@ -372,14 +229,13 @@ form > #segundo{
 #submit{
     position: absolute;
     top: 812px;
+    left: 10px;
     padding: 10px;
     border: 2px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 760px;
+    width: 759px;
 
 }
-
-
 
 
 

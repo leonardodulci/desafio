@@ -153,303 +153,51 @@ main > .text {
     top: 180px;
     left: 540px;
     background-color: #ffffff;
-    height: 870px;
+    height: 447px;
     width: 777px;
     border-radius: 20px;
 }
-form > h1{
+
+.form >h1{
+    background-color: rgb(79, 161, 193); 
+    border-radius: 10px 10px 0px 0px;
     color: white;
-    font-size: 28px;
-    font-family: 'Ubuntu';
-    font-weight: lighter;
-    padding: 5px;
-    background-color: rgb(79, 161, 193);
-    border-radius: 20px 20px  0px 0px;
-    margin-bottom: 10px;
-}
-form > span > .material-symbols-outlined{
-    margin-top: 5px;
-    color: white;
-    
+    font-family: 'ubuntu';
+    font-weight: 400;
+    font-size: 28px ;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 50px;
+    margin-bottom: 20px;
 }
 
-form  > #primeiro{
-    width: 47rem;
+.form > .addfuncionario{
+    height: 60px;
+    width: 729px;
     display: block;
     margin: auto;
-    padding: 7px;
-    margin-bottom: 10px;
-    border: 2px solid rgb(79, 161, 193);
+    border: 1px solid rgb(79, 161, 193);
     border-radius: 10px;
+    font-family: 'ubuntu';
+    color: rgb(79, 161, 193);
 }
 
-form > #segundo{
-    position: absolute;
-    top: 60px;
-    left: 690px;
-
-    width: 50px;
-   
-}
-.segquadro1{
-    border: 2px solid rgb(79, 161, 193);
+.form > .b2{
+    font-family: 'ubuntu';
+    color: rgb(79, 161, 193);
+    height: 31px;
+    width: 192px;
+    border: 1px solid rgb(79, 161, 193);
     border-radius: 10px;
-    margin: 11px;
-
-    display: block;
-    margin: auto;
-
-    width: 760px;
-    height: 235px;
-    margin-top: 5px;   
+    margin-left: 22px;
 }
 
-.segquadro1 >  .l1 {
-    position: absolute;
-    top: 103px;
-    margin-left: 15px;
-    
-     
-} 
-
-.segquadro1  > .l2 {
-    position: absolute;
-    top: 170px;
-    margin-left: 15px;
-}
-
- .segquadro1 > .l3 {
-    position: absolute;
-    top: 243px;
-    margin-left: 15px;
-}
-
- .segquadro1 > .l4 {
-    position: absolute;
-    top: 103px;
-    left: 417px;
-    
-}
-.segquadro1 > .l5 {
-    position: absolute;
-    top: 170px;
-    left: 420px;
-    
-}
-
-.segquadro1 > .l6 {
-    position: absolute;
-    top: 243px;
-    left: 420px;
-    
-}
-
-.terceiroquadro {
-    position: absolute;
-    top: 345px;
-    left: 10px;
-
-    display: block;
-    margin: auto;
-    border: 2px solid rgb(79, 161, 193);
+.form > .b3{
+    font-family: 'ubuntu';
+    color: rgb(79, 161, 193);
+    height: 31px;
+    width: 192px;
+    border: 1px solid rgb(79, 161, 193);
     border-radius: 10px;
-    width: 759px;
-    height: 270px;
-    margin-top: 5px;
-}
-
-.terceiroquadro > p{
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.terceiroquadro > .usaEPI{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-.terceiroquadro > fieldset{
-    width: 49vw;
-    display: block;
-    margin: auto;
-    padding: 10px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-     margin-bottom: 5px;
-}
-
-.terceiroquadro > fieldset > #ativ{
-   
-    width: 665px;
-    height: 36px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-}
-
-.terceiroquadro > fieldset > .l3{
-    position: absolute;
-    top: 135px;
-    left: 45px;
-}
-
-.terceiroquadro > fieldset > #epi{
-    margin-top: 15px;
-    width: 19vw;
-    padding: 10px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-}
- 
-.terceiroquadro > fieldset > .l4{
-    position: absolute;
-    top: 136px;
-    left: 295px;
-}
-
-.terceiroquadro > fieldset > #ca{
-    margin-left: 10px;
-    width: 20vw;
-    padding: 11px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-
-}
-
-.terceiroquadro > fieldset > a > .b1{
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    padding: 11px;
-
-}
-
-.terceiroquadro > a{
-      text-decoration: none;
-}
-
-.terceiroquadro > a > .b2{
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    padding: 11px;
-    margin: auto;
-    display: block;
-    width: 688px;
-  
-}
-
-.quartoquadro{
-    position: absolute;
-    top: 635px;
-    left: 10px;
-    width: 759px;
-    height: 164px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-}
-.quartoquadro > p{
-    padding: 10px;
-}
-
-.quartoquadro > #instru{
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    width: 667px;
-    padding: 11px;
-    margin: auto;
-    display: block;
-    text-align: center;
-}
-
-.quartoquadro > #doc{
-    padding: 10px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    margin: auto;
-    display: block;
-    width: 667px;
-    text-align: center;
-}
-
-#submit{
-    position: absolute;
-    top: 812px;
-    left: 10px;
-    padding: 10px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    width: 759px;
-
-}
-
-
-
-
-
-#nome{
-    position: absolute;
-    top: 120px;
-
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 2px solid rgb(79, 161, 193);
-    width: 25vw;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#cpf{
-    position: absolute;
-    top: 190px;
-
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 2px solid rgb(79, 161, 193);
-    width: 25vw;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#rg{
-    position: absolute;
-    top: 260px;
-
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    width: 25vw;
-    padding: 10px;
-}
-
-.sex1{
-    position: absolute;
-    top: 137px;
-    left: 420px;
-}
-
-.sex2{
-    position: absolute;
-    top: 137px;
-    left: 550px;
-}
-
-#nasc{
-    position: absolute;
-    top: 195px;
-    left: 420px;
-    padding: 8px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    width: 20vw;
-    text-align: center;
-}
-
-#cargo{
-    position: absolute;
-    top: 266px;
-    left: 420px;
-    padding: 8px;
-    border: 2px solid rgb(79, 161, 193);
-    border-radius: 10px;
-    width: 20vw;
+    margin-left: 22px;
 }
