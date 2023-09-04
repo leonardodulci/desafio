@@ -148,7 +148,7 @@ main > .text {
     top: 339px;
     left:25px;
 }
-.form{
+.form2{
     position: absolute;
     top: 180px;
     left: 540px;
@@ -158,7 +158,7 @@ main > .text {
     border-radius: 20px;
 }
 
-.form >h1{
+.form2 >h1{
     background-color: rgb(79, 161, 193); 
     border-radius: 10px 10px 0px 0px;
     color: white;
@@ -171,7 +171,7 @@ main > .text {
     margin-bottom: 20px;
 }
 
-.form > .addfuncionario{
+.form2 > .addfuncionario{
     height: 60px;
     width: 729px;
     display: block;
@@ -184,7 +184,7 @@ main > .text {
 }
 
 
-.form > .b2{
+.form2 > .b2{
     font-family: 'ubuntu';
     color: rgb(79, 161, 193);
     height: 31px;
@@ -194,7 +194,7 @@ main > .text {
     margin-left: 22px;
 }
 
-.form > .b3{
+.form2 > .b3{
     font-family: 'ubuntu';
     color: rgb(79, 161, 193);
     height: 31px;
@@ -204,7 +204,7 @@ main > .text {
     margin-left: 22px;
 }
 
-.form > .d1{
+.form2 > .d1{
     height: 84px;
     width: 729px;
     background-color: #EDF1F5;
@@ -213,7 +213,7 @@ main > .text {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.form > .d2{
+.form2 > .d2{
     height: 84px;
     width: 729px;
     background-color: #EDF1F5;
@@ -223,7 +223,7 @@ main > .text {
 
 }
 
-.form > .d1 > h1{
+.form2 > .d1 > h1{
     font-weight: 400;
     font-family: 'ubuntu';
     font-size: 24px;
@@ -232,7 +232,7 @@ main > .text {
     
 }
 
-.form > .d1 > span{
+.form2 > .d1 > span{
     width: 82px;
     height: 24px;
     margin-left: 10px;
@@ -245,7 +245,7 @@ main > .text {
 
 }
 
-.form > .d2 > h1{
+.form2 > .d2 > h1{
     font-weight: 400;
     font-family: 'ubuntu';
     font-size: 24px;
@@ -254,7 +254,7 @@ main > .text {
     
 }
 
-.form > .d2 > span{
+.form2 > .d2 > span{
     width: 82px;
     height: 24px;
     margin-left: 10px;
@@ -267,7 +267,7 @@ main > .text {
 
 }
 
-.form > .d3{
+.form2 > .d3{
     background-color:#4FA1C1 ;
     width: 49px;
     height: 84px;
@@ -276,7 +276,7 @@ main > .text {
     top: -188px;
     left: 705px;
 }
-.form > .d4{
+.form2 > .d4{
     background-color:#4FA1C1 ;
     width: 49px;
     height: 84px;
@@ -286,14 +286,14 @@ main > .text {
     left: 705px;
 }
 
-.form > .d3 > .material-symbols-outlined{
+.form2 > .d3 > .material-symbols-outlined{
    position: relative;
    top: 31px;
    left: 13px;
 
    font-weight: bolder;
 }
-.form > .d4 > .material-symbols-outlined{
+.form2 > .d4 > .material-symbols-outlined{
     position: relative;
     top: 31px;
     left: 13px;

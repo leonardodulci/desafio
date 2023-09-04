@@ -17,7 +17,7 @@
         document.addEventListener("DOMContentLoaded", function () {
     const mostrarFormularioBtn = document.querySelector(".addfuncionario");
     const formulario = document.querySelector("#form");
-    const formInicial = document.querySelector(".form");
+    const formInicial = document.querySelector(".form2");
   
     // Verifica se os elementos foram encontrados
     if (mostrarFormularioBtn && formulario && formInicial) {
